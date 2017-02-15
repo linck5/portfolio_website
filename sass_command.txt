@@ -1,3 +1,1 @@
-open ruby command shell and run:
-
 sass --watch D:\Desenvolvimento\www\felipemuller.xyz\portfolio\scss:D:\Desenvolvimento\www\felipemuller.xyz\portfolio\css
