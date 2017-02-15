@@ -1,0 +1,64 @@
+
+
+/*general*/
+.bootstrap-neg15-margin{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+
+$green: #2ecc71;
+
+.button-style-1{
+	position:relative;
+	padding:14px 0;
+	border:2px $green solid;
+	color:$green;
+	cursor:pointer;
+	font-family:'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
+	font-size:.9em;
+	transition:  color 0.4s, background-color 0.4s;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	vertical-align: middle;
+	line-height: 1em;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 210px;
+  top: 50%;
+  left: 50%;
+	margin: 0 -105px;
+	width: 210px;
+  background-color: rgba(0,0,0,0);
+  float:left;
+  &:hover,
+  &:focus {
+    transition: color 0.4s, background-color 0.4s;
+    color: white;
+    text-decoration: none;
+    background-color:$green;
+  }
+}
+
+/*section separators*/
+
+.svg-separator{
+  margin-bottom: -5px;
+}
+
+#about-to-projects-divider{
+  background-image: $aboutSectionPattern;
+  fill: $projectsSectionColor;
+}
+
+#projects-to-resume-divider{
+  background-image: $resumeSectionPattern;
+  fill: $projectsSectionColor;
+}
