@@ -16,7 +16,7 @@
   padding-left: 25%;
   padding-right: 25%;
 
-  }@include media("<phone") {
+  }@include media("<=phone") {
     #resume-section p{
       padding-left: 30px;
       padding-right: 30px;
@@ -32,7 +32,7 @@
   font-size: 90px;
   color: #444;
 
-  }@include media("<tablet") {
+  }@include media("<=tablet") {
     #resume-title{
       font-size: 13vw;
     }

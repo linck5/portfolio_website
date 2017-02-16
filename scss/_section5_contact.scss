@@ -3,14 +3,15 @@
   position: relative;
 }
 
+
+
 #map {
   width: 100%;
   height: 400px;
   background-color: grey;
-}
-@media (max-width:830px) {
-  #map {
-    height: 800px;
+
+  }@include media("<tablet") {#map{
+    height: calc(100vh - #{$navbar-height});
   }
 }
 
@@ -22,42 +23,32 @@
   right: 50px;
   width: 50%;
   height: 300px;
-}
-@media (max-width:1000px) {
-  #contact-box{
+  }@include media("<tablet") {#contact-box{
+    top: 50px;
+    left: 2%;
+    right: 2%;
+    width: auto;
+  }}@include media("<desktop", ">=tablet") {#contact-box{
     width: auto;
     left: 50px;
-    height: 250px;
-  }
-}
-@media (max-width:830px) {
-  #contact-box{
-    width: auto;
-    left: 50px;
-    height: 225px;
-  }
-}
-@media (min-width:1400px) {
-  #contact-box{
+  }}@include media(">=desktop") {#contact-box{
     width: 700px;
   }
 }
+
+
+
 #contact-box-content{
   padding: 50px;
   color: #EEE;
   text-align: center;
-  font-size: 25px;
-}
-@media (max-width:1000px) {
-  #contact-box-content{
-    font-size: 20px;
+  font-size: 2.5rem;
+
+  }@include media("<tablet") {#contact-box-content{
+    font-size: 1.8rem;
   }
 }
-@media (max-width:830px) {
-  #contact-box-content{
-    font-size: 14px;
-  }
-}
+
 #phone-text,
 #email-text{
   padding-left: 20px;
