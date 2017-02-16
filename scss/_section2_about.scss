@@ -26,6 +26,15 @@ $textColor: #DDD;
   color: $textColor;
   
   @extend .section-about-side-padding;
+
+  }@include media("<=tablet") {
+    #about-section p{
+      font-size: 2.1rem;
+    }
+  }@include media("<=phone") {
+    #about-section p{
+      font-size: 1.8rem;
+    }
 }
 
 
