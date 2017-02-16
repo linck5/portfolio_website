@@ -12,11 +12,10 @@
   padding-left: 25%;
   padding-right: 25%;
   
-  }@include media("<=phone") {
-    .section-about-side-padding{
-      padding-left: 10%;
-      padding-right: 10%;
-    }
+  }@include media("<tablet") {.section-about-side-padding{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 $textColor: #DDD;
@@ -27,11 +26,11 @@ $textColor: #DDD;
   
   @extend .section-about-side-padding;
 
-  }@include media("<=tablet") {
+  }@include media("<desktop") {
     #about-section p{
       font-size: 2.1rem;
     }
-  }@include media("<=phone") {
+  }@include media("<tablet") {
     #about-section p{
       font-size: 1.8rem;
     }
