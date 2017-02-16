@@ -51,57 +51,6 @@
   background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
   fill: #EEE; }
 
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#about-to-projects-divider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projects-to-resume-divider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
-
 #cover-image {
   background-image: url("https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg");
   width: 100%;
@@ -129,57 +78,6 @@
   text-shadow: 0.03em 0.03em #555;
   color: #EEE; }
 
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#about-to-projects-divider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projects-to-resume-divider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
-
 #about-section {
   position: relative;
   background-color: #345;
@@ -187,14 +85,14 @@
   padding-top: 30vh;
   padding-bottom: 60vh; }
 
-@media only screen and (max-width: 99999px) {
+.section-about-side-padding, #about-section p, #about-title, #resume-title {
+  padding-left: 25%;
+  padding-right: 25%; }
+
+@media (max-width: 320px) {
   .section-about-side-padding, #about-section p, #about-title, #resume-title {
     padding-left: 10%;
     padding-right: 10%; } }
-@media only screen and (min-width: 400px) {
-  .section-about-side-padding, #about-section p, #about-title, #resume-title {
-    padding-left: 25%;
-    padding-right: 25%; } }
 #about-section p {
   font-size: 2.5rem;
   color: #DDD; }
@@ -205,73 +103,26 @@
   font-size: 50px;
   color: #DDD; }
 
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#about-to-projects-divider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projects-to-resume-divider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
-
 #projects-section {
   position: relative;
   padding-top: 20vh;
   padding-bottom: 40vh;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 2vw;
+  padding-right: 2vw;
   background-color: #EEE; }
 
-@media (min-width: 1400px) {
+@media (min-width: 1024px) {
   #projects-section {
-    padding-left: 150px;
-    padding-right: 150px; } }
+    padding-left: 10vw;
+    padding-right: 10vw; } }
 #projects-title {
-  font-size: 10vw;
+  font-size: 90px;
+  padding-bottom: 120px;
   text-align: center; }
 
+@media (max-width: 767px) {
+  #projects-title {
+    font-size: 13vw; } }
 .project-image {
   height: 200px; }
 
@@ -285,62 +136,16 @@
   height: 300px;
   object-fit: cover; }
 
+.thumbnail-footer .btn {
+  margin-top: 5px; }
+
 .thumbnail-footer {
   position: absolute;
-  bottom: 12px;
-  right: 12px; }
+  bottom: 12px; }
 
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#about-to-projects-divider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projects-to-resume-divider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
-
+@media (min-width: 1024px) {
+  .thumbnail-footer {
+    right: 12px; } }
 #resume-section {
   position: relative;
   background-color: #CC7;
@@ -372,57 +177,6 @@
 
 #resume-button-p {
   padding-top: 55px; }
-
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#about-to-projects-divider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projects-to-resume-divider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
 
 #contact-section {
   position: relative; }

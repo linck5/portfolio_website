@@ -3,14 +3,14 @@
 
 @import '_include-media';
 
-@import 'definitions';
+@import '_definitions';
 
-@import 'general';
+@import '_general';
 
-@import 'section1_cover';
-@import 'section2_about';
-@import 'section3_projects';
-@import 'section4_resume';
-@import 'section5_contact';
+@import '_section1_cover';
+@import '_section2_about';
+@import '_section3_projects';
+@import '_section4_resume';
+@import '_section5_contact';
 
 

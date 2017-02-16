@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"over",
+				"text-overflow: "
+			]
 		]
 	},
 	"buffers":
@@ -11,25 +15,34 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12719,
+				"buffer_size": 12563,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/style.scss",
+			"file": "scss/section2_about.scss",
 			"settings":
 			{
-				"buffer_size": 5275,
+				"buffer_size": 675,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/style.css",
+			"file": "scss/definitions.scss",
 			"settings":
 			{
-				"buffer_size": 5261,
+				"buffer_size": 320,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/all.css",
+			"settings":
+			{
+				"buffer_size": 5386,
 				"line_ending": "Windows"
 			}
 		}
@@ -79,10 +92,25 @@
 	],
 	"file_history":
 	[
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section3_projects.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/section2_about.css",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section5_contact.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section4_resume.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section2_about.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section1_cover.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/all.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/general.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/definitions.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_cover.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_about.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_projects.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_contact.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_resume.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/style.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/all.css",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/style.css",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/foundation_media_queries.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/foundation_media_queries.css",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/style.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/js/index.js",
 		"/C/Users/Felipe-PC/Desktop/bin/index.html",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/works/localWeather/index.html",
@@ -107,6 +135,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"col-md-6 col-xlg-4\">",
+			"<div class=\"col-md-6 col-lg-4\">",
+			"<div class=\"col-sm-6 col-lg-4\">",
+			"<div class=\"col-sm-6 col-md-4\">",
 			".size",
 			"*size",
 			"size",
@@ -123,6 +155,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"col-md-6 col-lg-4\">",
+			"<div class=\"col-md-6 col-xlg-4\">",
+			"<div class=\"col-md-6 col-lg-4\">",
+			"<div class=\"col-sm-6 col-lg-4\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -133,7 +169,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -142,15 +178,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12719,
+						"buffer_size": 12563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								438,
-								438
+								7782,
+								7782
 							]
 						],
 						"settings":
@@ -160,27 +196,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3379.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/style.scss",
+					"file": "scss/section2_about.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5275,
+						"buffer_size": 675,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5250,
-								5250
+								314,
+								314
 							]
 						],
 						"settings":
@@ -190,27 +226,55 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5431.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/style.css",
+					"file": "scss/definitions.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5261,
+						"buffer_size": 320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/all.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -219,11 +283,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -268,7 +332,7 @@
 	"project": "felipemuller.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
