@@ -7,24 +7,20 @@
   padding-bottom: 60vh;
 }
 
-.section-resume-side-padding{
-  padding-left: 25%;
-  padding-right: 25%;
-}
-@media (max-width:800px) {
-  .section-resume-side-padding{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
 #resume-section p{
   font-size: 20px;
   font-weight: bold;
   color: #555;
   text-align: center;
   
-  @extend .section-resume-side-padding;
+  padding-left: 25%;
+  padding-right: 25%;
+
+  }@include media("<phone") {
+    #resume-section p{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
 }
 
 #resume-title {
@@ -33,10 +29,13 @@
   
   font-weight: bold;
   text-align: center;
-  font-size: 10vw;
+  font-size: 90px;
   color: #444;
-  
-  @extend .section-about-side-padding
+
+  }@include media("<tablet") {
+    #resume-title{
+      font-size: 13vw;
+    }
 }
 
 #resume-button-p{
