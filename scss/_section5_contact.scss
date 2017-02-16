@@ -45,6 +45,8 @@
   font-size: 2.5rem;
 
   }@include media("<tablet") {#contact-box-content{
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 1.8rem;
   }
 }
@@ -52,7 +54,11 @@
 #phone-text,
 #email-text{
   padding-left: 20px;
+  }@include media("<tablet") {#phone-text,#email-text{
+    padding-left: 2%;
+  }
 }
+
 .contact-link-icon {
   text-decoration:none;
   color:inherit;

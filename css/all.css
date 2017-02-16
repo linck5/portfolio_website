@@ -227,11 +227,16 @@
 
 @media (max-width: 767px) {
   #contact-box-content {
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 1.8rem; } }
 #phone-text,
 #email-text {
   padding-left: 20px; }
 
+@media (max-width: 767px) {
+  #phone-text, #email-text {
+    padding-left: 2%; } }
 .contact-link-icon {
   text-decoration: none;
   color: inherit;
