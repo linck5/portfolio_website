@@ -1,16 +1,27 @@
 
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-@import '_include-media';
 
-@import '_definitions';
+/*------------SASS-------------*/
 
-@import '_general';
+	/*------------EXTERNAL-------------*/
+	@import "external/bootstrap-sass-3.3.7/assets/stylesheets/_bootstrap";
 
-@import '_section1_cover';
-@import '_section2_about';
-@import '_section3_projects';
-@import '_section4_resume';
-@import '_section5_contact';
+	@import 'external/_add_xl_to_bootstrap';
+
+	@import 'external/_include-media';
+
+
+	/*------------CUSTOM-------------*/
+	@import '_definitions';
+
+	@import '_general';
+
+	@import '_section1_cover';
+	@import '_section2_about';
+	@import '_section3_projects';
+	@import '_section4_resume';
+	@import '_section5_contact';
 
 
