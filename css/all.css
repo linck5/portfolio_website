@@ -6135,19 +6135,35 @@ and open the template in the editor.
   .section-about-side-padding, #about-section p, #about-title {
     padding-left: 10%;
     padding-right: 10%; } }
+#facePhotoImage {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto; }
+
+@media (max-width: 1023px) {
+  #facePhotoImage {
+    width: 250px; } }
+@media (max-width: 767px) {
+  #facePhotoImage {
+    width: 200px; } }
 #about-section p {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #DDD; }
 
 @media (max-width: 1023px) {
   #about-section p {
-    font-size: 2.1rem; } }
+    font-size: 2.0rem; } }
 @media (max-width: 767px) {
   #about-section p {
     font-size: 1.8rem; } }
 #about-title {
   margin-top: 0;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
   font-size: 50px;
   color: #DDD; }
 

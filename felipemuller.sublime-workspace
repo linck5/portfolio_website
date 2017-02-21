@@ -15,33 +15,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12563,
+				"buffer_size": 12910,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_section3_projects.scss",
+			"file": "scss/all.scss",
 			"settings":
 			{
-				"buffer_size": 841,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_section4_resume.scss",
-			"settings":
-			{
-				"buffer_size": 676,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_section5_contact.scss",
-			"settings":
-			{
-				"buffer_size": 1117,
+				"buffer_size": 537,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -50,26 +33,9 @@
 			"file": "js/index.js",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 1997,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_section2_about.scss",
-			"settings":
-			{
-				"buffer_size": 779,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_definitions.scss",
-			"settings":
-			{
-				"buffer_size": 357,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -118,8 +84,16 @@
 	],
 	"file_history":
 	[
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_include-media.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section3_projects.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_definitions.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section5_contact.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section4_resume.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/all.css",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/index.html",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section2_about.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/index.html",
+		"/C/Users/Felipe-PC/Desktop/bkp.html",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_include-media.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/all.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section2_about.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/definitions.scss",
@@ -135,7 +109,6 @@
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_contact.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/section_resume.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/style.scss",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/all.css",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/style.css",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/foundation_media_queries.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/foundation_media_queries.css",
@@ -143,13 +116,11 @@
 		"/C/Users/Felipe-PC/Desktop/bin/index.html",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/works/localWeather/index.html",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/works/localWeather/js/index.js",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/works/localWeather/css/style.css",
-		"/D/Desenvolvimento/www/felipemuller.xyz/index.html",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/index.html"
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/works/localWeather/css/style.css"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -163,6 +134,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vh",
+			"vw",
+			"view",
+			"s=\"col-sm-6 col-md-6 col-lg-6 col-xl-4\">",
+			"<div class=\"col-md-6 col-lg-6 col-xl-4\">",
+			"<div class=\"col-lg-6 col-xl-4\">",
+			"<div class=\"col-md-6 col-lg-4\">",
 			"<div class=\"col-md-6 col-xlg-4\">",
 			"<div class=\"col-md-6 col-lg-4\">",
 			"<div class=\"col-sm-6 col-lg-4\">",
@@ -183,6 +161,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"col-md-6 col-lg-6 col-xl-4\">",
+			"<div class=\"col-sm-6 col-md-6 col-lg-6 col-xl-4\">",
+			"<div class=\"col-md-6 col-lg-6 col-xl-4\">",
+			"<div class=\"col-lg-6 col-xl-4\">",
 			"<div class=\"col-md-6 col-lg-4\">",
 			"<div class=\"col-md-6 col-xlg-4\">",
 			"<div class=\"col-md-6 col-lg-4\">",
@@ -197,7 +179,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -206,15 +188,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12563,
+						"buffer_size": 12910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								274
+								12910,
+								12910
 							]
 						],
 						"settings":
@@ -224,117 +206,55 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5466.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/all.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 65.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "scss/_section3_projects.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 841,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								491,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "scss/_section4_resume.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 676,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								378,
-								378
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scss/_section5_contact.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								632,
-								632
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "js/index.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 1997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								394,
+								394
 							]
 						],
 						"settings":
@@ -344,68 +264,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "scss/_section2_about.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "scss/_definitions.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14,
-								14
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -413,7 +275,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -450,7 +312,7 @@
 	"project": "felipemuller.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
