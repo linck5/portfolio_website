@@ -1,5 +1,5 @@
 
-#projects-section{
+#projectsSection{
   position:relative;
   padding-top: 20vh;
   padding-bottom: 40vh;
@@ -7,22 +7,20 @@
   padding-right: 2vw;
   background-color: $projectsSectionColor;
 
-  }@include media(">=desktop") {
-    #projects-section{
-      padding-left: 10vw;
-      padding-right: 10vw;
-    }
+  }@include media(">=desktop") {#projects-section{
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 }
 
-#projects-title{
+#projectsTitle{
   font-size: 90px;
   padding-bottom: 120px;
   text-align: center;
 
-  }@include media("<tablet") {
-    #projects-title{
-      font-size: 13vw;
-    }
+  }@include media("<tablet") { #projectsTitle{
+    font-size: 13vw;
+  }
 }
 
 .project-image{
@@ -30,9 +28,9 @@
 }
 
 .thumbnail{    
-    position: relative;
-    height: 600px;
-    overflow: auto;
+  position: relative;
+  height: 600px;
+  overflow: auto;
 }
 
 .thumbnail img{    
@@ -50,8 +48,7 @@
     position:absolute; 
     bottom:12px;
 
-  }@include media(">=desktop") {
-    .thumbnail-footer{
-      right:12px;
-    }
+  }@include media(">=desktop") {.thumbnail-footer{
+    right:12px;
+  }
 }

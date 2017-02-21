@@ -6085,18 +6085,18 @@ and open the template in the editor.
 .svg-separator {
   margin-bottom: -5px; }
 
-#about-to-projects-divider {
+#aboutToProjectsDivider {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
   fill: #EEE; }
 
-#projects-to-resume-divider {
+#projectsToResumeDivider {
   background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
   fill: #EEE; }
 
-#cover-section {
+#coverSection {
   background-color: #333; }
 
-#cover-section-wrapper {
+#coverSectionWrapper {
   animation: cover_appearing 1.0s;
   animation-timing-function: ease-in-out; }
 
@@ -6105,7 +6105,7 @@ and open the template in the editor.
     opacity: 0; }
   100% {
     opacity: 1; } }
-#cover-image {
+#coverImage {
   background-image: url("https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg");
   width: 100%;
   height: 100vh;
@@ -6114,37 +6114,37 @@ and open the template in the editor.
   margin-bottom: 0px;
   padding-bottom: 0px; }
 
-#cover-text {
+#coverText {
   position: absolute;
   left: 0;
   top: 30%;
   width: 100%; }
 
-#cover-text-title {
+#coverTextTitle {
   text-align: center;
   font-size: 20vmin;
   text-shadow: 0.03em 0.03em #555;
   color: #EEE; }
 
-#cover-text-subtitle {
+#coverTextSubtitle {
   text-align: center;
   font-size: 12vmin;
   text-shadow: 0.03em 0.03em #555;
   color: #EEE; }
 
-#about-section {
+#aboutSection {
   position: relative;
   background-color: #345;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
   padding-top: 30vh;
   padding-bottom: 60vh; }
 
-.section-about-side-padding, #about-section p, #about-title {
+.section-about-side-padding, #aboutSection p, #aboutTitle {
   padding-left: 25%;
   padding-right: 25%; }
 
 @media (max-width: 767px) {
-  .section-about-side-padding, #about-section p, #about-title {
+  .section-about-side-padding, #aboutSection p, #aboutTitle {
     padding-left: 10%;
     padding-right: 10%; } }
 #facePhotoImage {
@@ -6161,7 +6161,7 @@ and open the template in the editor.
 @media (max-width: 767px) {
   #facePhotoImage {
     width: 200px; } }
-#about-section p {
+#aboutSection p {
   font-size: 2.2rem;
   color: #DDD; }
 
@@ -6171,7 +6171,7 @@ and open the template in the editor.
 @media (max-width: 767px) {
   #about-section p {
     font-size: 1.8rem; } }
-#about-title {
+#aboutTitle {
   margin-top: 0;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -6179,7 +6179,7 @@ and open the template in the editor.
   font-size: 50px;
   color: #DDD; }
 
-#projects-section {
+#projectsSection {
   position: relative;
   padding-top: 20vh;
   padding-bottom: 40vh;
@@ -6191,13 +6191,13 @@ and open the template in the editor.
   #projects-section {
     padding-left: 10vw;
     padding-right: 10vw; } }
-#projects-title {
+#projectsTitle {
   font-size: 90px;
   padding-bottom: 120px;
   text-align: center; }
 
 @media (max-width: 767px) {
-  #projects-title {
+  #projectsTitle {
     font-size: 13vw; } }
 .project-image {
   height: 200px; }
@@ -6223,14 +6223,14 @@ and open the template in the editor.
 @media (min-width: 1024px) {
   .thumbnail-footer {
     right: 12px; } }
-#resume-section {
+#resumeSection {
   position: relative;
   background-color: #CC7;
   background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
   padding-top: 30vh;
   padding-bottom: 60vh; }
 
-#resume-section p {
+#resumeSection p {
   font-size: 20px;
   font-weight: bold;
   color: #555;
@@ -6239,10 +6239,10 @@ and open the template in the editor.
   padding-right: 25%; }
 
 @media (max-width: 320px) {
-  #resume-section p {
+  #resumeSection p {
     padding-left: 30px;
     padding-right: 30px; } }
-#resume-title {
+#resumeTitle {
   margin-top: 0;
   padding-bottom: 40px;
   font-weight: bold;
@@ -6251,12 +6251,12 @@ and open the template in the editor.
   color: #444; }
 
 @media (max-width: 768px) {
-  #resume-title {
+  #resumeTitle {
     font-size: 13vw; } }
-#resume-button-p {
+#resumeButtonP {
   padding-top: 55px; }
 
-#contact-section {
+#contactSection {
   position: relative; }
 
 #map {
@@ -6267,7 +6267,7 @@ and open the template in the editor.
 @media (max-width: 767px) {
   #map {
     height: calc(100vh - 51px); } }
-#contact-box {
+#contactBox {
   background-color: #181818;
   opacity: 0.95;
   position: absolute;
@@ -6289,7 +6289,7 @@ and open the template in the editor.
 @media (min-width: 1024px) {
   #contact-box {
     width: 700px; } }
-#contact-box-content {
+#contactBoxContent {
   padding: 50px;
   color: #EEE;
   text-align: center;
@@ -6300,8 +6300,8 @@ and open the template in the editor.
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1.8rem; } }
-#phone-text,
-#email-text {
+#phoneText,
+#emailText {
   padding-left: 20px; }
 
 @media (max-width: 767px) {

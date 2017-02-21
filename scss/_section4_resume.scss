@@ -1,5 +1,5 @@
 
-#resume-section{
+#resumeSection{
   position:relative;
   background-color: #CC7;
   background-image: $resumeSectionPattern;
@@ -7,7 +7,7 @@
   padding-bottom: 60vh;
 }
 
-#resume-section p{
+#resumeSection p{
   font-size: 20px;
   font-weight: bold;
   color: #555;
@@ -16,14 +16,13 @@
   padding-left: 25%;
   padding-right: 25%;
 
-  }@include media("<=phone") {
-    #resume-section p{
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+  }@include media("<=phone") {#resumeSection p{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
-#resume-title {
+#resumeTitle {
   margin-top: 0;
   padding-bottom: 40px;
   
@@ -32,12 +31,11 @@
   font-size: 90px;
   color: #444;
 
-  }@include media("<=tablet") {
-    #resume-title{
-      font-size: 13vw;
-    }
+  }@include media("<=tablet") {#resumeTitle{
+    font-size: 13vw;
+  }
 }
 
-#resume-button-p{
+#resumeButtonP{
   padding-top: 55px;
 }

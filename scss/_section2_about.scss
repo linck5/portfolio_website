@@ -1,5 +1,5 @@
 
-#about-section{
+#aboutSection{
   position:relative;
   background-color: #345;
   background-image: $aboutSectionPattern;
@@ -37,7 +37,7 @@ $textColor: #DDD;
   }
 }
 
-#about-section p{
+#aboutSection p{
   font-size: 2.2rem;
   color: $textColor;
   
@@ -51,7 +51,7 @@ $textColor: #DDD;
 }
 
 
-#about-title {
+#aboutTitle {
   margin-top: 0;
   padding-top: 60px;
   padding-bottom: 60px;

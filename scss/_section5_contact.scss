@@ -1,5 +1,5 @@
 
-#contact-section{
+#contactSection{
   position: relative;
 }
 
@@ -15,7 +15,7 @@
   }
 }
 
-#contact-box{
+#contactBox{
   background-color: #181818;
   opacity: 0.95;
   position: absolute;
@@ -38,7 +38,7 @@
 
 
 
-#contact-box-content{
+#contactBoxContent{
   padding: 50px;
   color: #EEE;
   text-align: center;
@@ -51,8 +51,8 @@
   }
 }
 
-#phone-text,
-#email-text{
+#phoneText,
+#emailText{
   padding-left: 20px;
   }@include media("<tablet") {#phone-text,#email-text{
     padding-left: 2%;
