@@ -1,3 +1,15 @@
+#cover-section{
+  background-color: #333;
+}
+
+#cover-section-wrapper{
+  animation: cover_appearing 1.0s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes cover_appearing {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 #cover-image{
   background-image: url("https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg");
@@ -8,6 +20,7 @@
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+
 
 #cover-text{
   position: absolute;
