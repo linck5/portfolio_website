@@ -16,12 +16,14 @@
 	/*------------CUSTOM-------------*/
 	@import '_definitions';
 
-	@import '_general';
-
 	@import '_section1_cover';
 	@import '_section2_about';
 	@import '_section3_projects';
 	@import '_section4_resume';
 	@import '_section5_contact';
+	@import 'bootstrap_custom_buttons';
+
+	//general needs to go after the sections because it depends on some variables
+	@import '_general';
 
 

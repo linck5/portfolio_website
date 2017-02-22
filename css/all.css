@@ -6042,57 +6042,6 @@ and open the template in the editor.
 /*------------CUSTOM-------------*/
 /* contants */
 /*patterns & colors*/
-/*general*/
-.bootstrap-neg15-margin {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.button-style-1 {
-  position: relative;
-  padding: 14px 0;
-  border: 2px #2ecc71 solid;
-  color: #2ecc71;
-  cursor: pointer;
-  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
-  font-size: .9em;
-  transition: color 0.4s, background-color 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 1em;
-  outline: none;
-  text-align: center;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 210px;
-  top: 50%;
-  left: 50%;
-  margin: 0 -105px;
-  width: 210px;
-  background-color: transparent;
-  float: left; }
-  .button-style-1:hover, .button-style-1:focus {
-    transition: color 0.4s, background-color 0.4s;
-    color: white;
-    text-decoration: none;
-    background-color: #2ecc71; }
-
-/*section separators*/
-.svg-separator {
-  margin-bottom: -5px; }
-
-#aboutToProjectsDivider {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
-  fill: #EEE; }
-
-#projectsToResumeDivider {
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
-  fill: #EEE; }
-
 #coverSection {
   background-color: #333; }
 
@@ -6106,7 +6055,7 @@ and open the template in the editor.
   100% {
     opacity: 1; } }
 #coverImage {
-  background-image: url("https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg");
+  background-image: url("../images/coverBGImage.jpeg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -6118,24 +6067,29 @@ and open the template in the editor.
   position: absolute;
   left: 0;
   top: 30%;
-  width: 100%; }
+  width: 100%;
+  padding-left: 18%; }
 
+@media (max-width: 1023px) {
+  #coverText {
+    top: 20%;
+    padding-left: 0; } }
 #coverTextTitle {
   text-align: center;
-  font-size: 20vmin;
+  font-size: 18vmin;
   text-shadow: 0.03em 0.03em #555;
   color: #EEE; }
 
 #coverTextSubtitle {
   text-align: center;
-  font-size: 12vmin;
+  font-size: 10vmin;
   text-shadow: 0.03em 0.03em #555;
   color: #EEE; }
 
 #aboutSection {
   position: relative;
   background-color: #345;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKElEQVQoU2M0dgn9z0AEYAQpZGZmxqn079+/YLlRhViDCCV4iAhvBgCaQSn54VqfjwAAAABJRU5ErkJggg==);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQoU2N0sLb5z4AEfv38ycDGzs6ATjNiU4isEcQGacSqcNREWHgSHY4AftdNJ/NLukQAAAAASUVORK5CYII=);
   padding-top: 30vh;
   padding-bottom: 60vh; }
 
@@ -6153,7 +6107,10 @@ and open the template in the editor.
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  height: auto; }
+  height: auto;
+  -webkit-filter: grayscale(40%);
+  /* Safari */
+  filter: grayscale(40%); }
 
 @media (max-width: 1023px) {
   #facePhotoImage {
@@ -6177,7 +6134,7 @@ and open the template in the editor.
   padding-bottom: 60px;
   text-align: center;
   font-size: 50px;
-  color: #DDD; }
+  color: #afd96a; }
 
 #projectsSection {
   position: relative;
@@ -6185,7 +6142,7 @@ and open the template in the editor.
   padding-bottom: 40vh;
   padding-left: 2vw;
   padding-right: 2vw;
-  background-color: #EEE; }
+  background-color: #ecf2df; }
 
 @media (min-width: 1024px) {
   #projects-section {
@@ -6199,18 +6156,19 @@ and open the template in the editor.
 @media (max-width: 767px) {
   #projectsTitle {
     font-size: 13vw; } }
-.project-image {
-  height: 200px; }
-
 .thumbnail {
   position: relative;
   height: 600px;
-  overflow: auto; }
+  overflow: auto;
+  background-color: #f5fffc; }
 
 .thumbnail img {
   width: 100%;
   height: 300px;
-  object-fit: cover; }
+  object-fit: cover;
+  -webkit-filter: grayscale(40%);
+  /* Safari */
+  filter: grayscale(40%); }
 
 .thumbnail-footer .btn {
   margin-top: 5px;
@@ -6226,14 +6184,14 @@ and open the template in the editor.
 #resumeSection {
   position: relative;
   background-color: #CC7;
-  background-image: url("https://s23.postimg.org/64qwpjapn/sprinkles_2x.png");
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALUlEQVQoU2O88GLlfwYk8PPHTwZ2DnYGdJoRm0JkjSA2SCNWhaMmwsKT6HAEAAcEXcvx7hmpAAAAAElFTkSuQmCC");
   padding-top: 30vh;
   padding-bottom: 60vh; }
 
 #resumeSection p {
   font-size: 20px;
   font-weight: bold;
-  color: #555;
+  color: #403b3c;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%; }
@@ -6248,7 +6206,7 @@ and open the template in the editor.
   font-weight: bold;
   text-align: center;
   font-size: 90px;
-  color: #444; }
+  color: #403b3c; }
 
 @media (max-width: 768px) {
   #resumeTitle {
@@ -6262,7 +6220,10 @@ and open the template in the editor.
 #map {
   width: 100%;
   height: 400px;
-  background-color: grey; }
+  background-color: #181818;
+  -webkit-filter: grayscale(40%);
+  /* Safari */
+  filter: grayscale(40%); }
 
 @media (max-width: 767px) {
   #map {
@@ -6315,5 +6276,136 @@ and open the template in the editor.
 
 #contact-link-icons {
   padding-top: 20px; }
+
+.btn-custom-1 {
+  color: #393136;
+  background-color: #9ecd5f;
+  border-color: #afd96a; }
+
+.btn-custom-1:hover,
+.btn-custom-1:focus,
+.btn-custom-1:active,
+.btn-custom-1.active,
+.open .dropdown-toggle.btn-custom-1 {
+  color: #393136;
+  background-color: #d0e8a9;
+  border-color: #eef9dc; }
+
+.btn-custom-1.active,
+.open .dropdown-toggle.btn-custom-1 {
+  background-image: none; }
+
+.btn-custom-1.disabled,
+.btn-custom-1[disabled],
+fieldset[disabled] .btn-custom-1,
+.btn-custom-1.disabled:hover,
+.btn-custom-1[disabled]:hover,
+fieldset[disabled] .btn-custom-1:hover,
+.btn-custom-1.disabled:focus,
+.btn-custom-1[disabled]:focus,
+fieldset[disabled] .btn-custom-1:focus,
+.btn-custom-1.disabled:active,
+.btn-custom-1[disabled]:active,
+fieldset[disabled] .btn-custom-1:active,
+.btn-custom-1.disabled.active,
+.btn-custom-1[disabled].active,
+fieldset[disabled] .btn-custom-1.active {
+  background-color: #9ecd5f;
+  border-color: #afd96a; }
+
+.btn-custom-1 .badge {
+  color: #9ecd5f;
+  background-color: #393136; }
+
+.btn-custom-2 {
+  color: #7d8187;
+  background-color: #f5fffc;
+  border-color: #7d8187; }
+
+.btn-custom-2:hover,
+.btn-custom-2:focus,
+.btn-custom-2:active,
+.btn-custom-2.active,
+.open .dropdown-toggle.btn-custom-2 {
+  color: #7d8187;
+  background-color: #e3faf3;
+  border-color: #7d8187; }
+
+.btn-custom-2.active,
+.open .dropdown-toggle.btn-custom-2 {
+  background-image: none; }
+
+.btn-custom-2.disabled,
+.btn-custom-2[disabled],
+fieldset[disabled] .btn-custom-2,
+.btn-custom-2.disabled:hover,
+.btn-custom-2[disabled]:hover,
+fieldset[disabled] .btn-custom-2:hover,
+.btn-custom-2.disabled:focus,
+.btn-custom-2[disabled]:focus,
+fieldset[disabled] .btn-custom-2:focus,
+.btn-custom-2.disabled:active,
+.btn-custom-2[disabled]:active,
+fieldset[disabled] .btn-custom-2:active,
+.btn-custom-2.disabled.active,
+.btn-custom-2[disabled].active,
+fieldset[disabled] .btn-custom-2.active {
+  background-color: #f5fffc;
+  border-color: #7d8187; }
+
+.btn-custom-2 .badge {
+  color: #f5fffc;
+  background-color: #7d8187; }
+
+/*general*/
+.bootstrap-neg15-margin {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.btn-callout {
+  position: relative;
+  padding: 14px 0;
+  border: 2px #403b3c solid;
+  color: #403b3c;
+  cursor: pointer;
+  font-family: 'Montserrat', "helvetica neue", helvetica, arial, sans-serif;
+  font-size: .9em;
+  transition: color 0.2s, background-color 0.2s;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  vertical-align: middle;
+  line-height: 1em;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 210px;
+  top: 50%;
+  left: 50%;
+  margin: 0 -105px;
+  width: 210px;
+  background-color: transparent;
+  float: left; }
+  .btn-callout:hover, .btn-callout:focus {
+    transition: color 0.3s, background-color 0.3s;
+    color: #e3faf3;
+    text-decoration: none;
+    background-color: #403b3c; }
+
+/*section separators*/
+.svg-separator {
+  margin-bottom: -5px; }
+
+#aboutToProjectsDivider {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQoU2N0sLb5z4AEfv38ycDGzs6ATjNiU4isEcQGacSqcNREWHgSHY4AftdNJ/NLukQAAAAASUVORK5CYII=);
+  fill: #ecf2df; }
+
+#projectsToResumeDivider {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALUlEQVQoU2O88GLlfwYk8PPHTwZ2DnYGdJoRm0JkjSA2SCNWhaMmwsKT6HAEAAcEXcvx7hmpAAAAAElFTkSuQmCC");
+  fill: #ecf2df; }
 
 /*# sourceMappingURL=all.css.map */

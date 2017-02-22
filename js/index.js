@@ -1,4 +1,8 @@
-
+AOS.init({
+  duration: 400,
+  easing: 'ease-out-sine',
+  once: true
+})
 
 //don't show cover untill its loaded
 $("#coverImage, #coverText").css('visibility','hidden');

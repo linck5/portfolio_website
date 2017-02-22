@@ -1,0 +1,118 @@
+//button 1
+$btnCustom1TextColor: #393136;
+$btnCustom1BgColor: #9ecd5f;
+$btnCustom1BorderColor: #afd96a;
+
+$btnCustom1TextColorActiveHover: #393136;
+$btnCustom1BgColorActiveHover: #d0e8a9;
+$btnCustom1BorderColorActiveHover: #eef9dc;
+
+//button 2
+$btnCustom2TextColor: #7d8187;
+$btnCustom2BgColor: #f5fffc;
+$btnCustom2BorderColor: #7d8187;
+
+$btnCustom2TextColorActiveHover: #7d8187;
+$btnCustom2BgColorActiveHover: #e3faf3;
+$btnCustom2BorderColorActiveHover: #7d8187;
+
+
+
+
+.btn-custom-1 { 
+  color: $btnCustom1TextColor; 
+  background-color: $btnCustom1BgColor; 
+  border-color: $btnCustom1BorderColor; 
+} 
+ 
+.btn-custom-1:hover, 
+.btn-custom-1:focus, 
+.btn-custom-1:active, 
+.btn-custom-1.active, 
+.open .dropdown-toggle.btn-custom-1 { 
+  color: $btnCustom1TextColorActiveHover; 
+  background-color: $btnCustom1BgColorActiveHover; 
+  border-color: $btnCustom1BorderColorActiveHover; 
+} 
+ 
+.btn-custom-1.active, 
+.open .dropdown-toggle.btn-custom-1 { 
+  background-image: none; 
+} 
+ 
+.btn-custom-1.disabled, 
+.btn-custom-1[disabled], 
+fieldset[disabled] .btn-custom-1, 
+.btn-custom-1.disabled:hover, 
+.btn-custom-1[disabled]:hover, 
+fieldset[disabled] .btn-custom-1:hover, 
+.btn-custom-1.disabled:focus, 
+.btn-custom-1[disabled]:focus, 
+fieldset[disabled] .btn-custom-1:focus, 
+.btn-custom-1.disabled:active, 
+.btn-custom-1[disabled]:active, 
+fieldset[disabled] .btn-custom-1:active, 
+.btn-custom-1.disabled.active, 
+.btn-custom-1[disabled].active, 
+fieldset[disabled] .btn-custom-1.active { 
+  background-color: $btnCustom1BgColor; 
+  border-color: $btnCustom1BorderColor; 
+} 
+ 
+.btn-custom-1 .badge { 
+  color: $btnCustom1BgColor; 
+  background-color: $btnCustom1TextColor; 
+}
+
+
+
+
+
+
+
+
+
+.btn-custom-2 { 
+  color: $btnCustom2TextColor; 
+  background-color: $btnCustom2BgColor; 
+  border-color: $btnCustom2BorderColor; 
+} 
+ 
+.btn-custom-2:hover, 
+.btn-custom-2:focus, 
+.btn-custom-2:active, 
+.btn-custom-2.active, 
+.open .dropdown-toggle.btn-custom-2 { 
+  color: $btnCustom2TextColorActiveHover; 
+  background-color: $btnCustom2BgColorActiveHover; 
+  border-color: $btnCustom2BorderColorActiveHover; 
+} 
+ 
+.btn-custom-2.active, 
+.open .dropdown-toggle.btn-custom-2 { 
+  background-image: none; 
+} 
+ 
+.btn-custom-2.disabled, 
+.btn-custom-2[disabled], 
+fieldset[disabled] .btn-custom-2, 
+.btn-custom-2.disabled:hover, 
+.btn-custom-2[disabled]:hover, 
+fieldset[disabled] .btn-custom-2:hover, 
+.btn-custom-2.disabled:focus, 
+.btn-custom-2[disabled]:focus, 
+fieldset[disabled] .btn-custom-2:focus, 
+.btn-custom-2.disabled:active, 
+.btn-custom-2[disabled]:active, 
+fieldset[disabled] .btn-custom-2:active, 
+.btn-custom-2.disabled.active, 
+.btn-custom-2[disabled].active, 
+fieldset[disabled] .btn-custom-2.active { 
+  background-color: $btnCustom2BgColor; 
+  border-color: $btnCustom2BorderColor; 
+} 
+ 
+.btn-custom-2 .badge { 
+  color: $btnCustom2BgColor; 
+  background-color: $btnCustom2TextColor; 
+}

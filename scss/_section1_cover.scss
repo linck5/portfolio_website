@@ -27,17 +27,24 @@
   left: 0;
   top: 30%;
   width: 100%;
+  padding-left: 18%;
+  }@include media("<desktop") {#coverText{
+    top: 20%;
+    padding-left: 0;
+  }
 }
 
+$textColor: #EEE;
+$shadowColor: #555;
 #coverTextTitle{
   text-align: center;
-  font-size: 20vmin;
-  text-shadow: 0.03em 0.03em #555;
-  color: #EEE;
+  font-size: 18vmin;
+  text-shadow: 0.03em 0.03em $shadowColor;
+  color: $textColor;
 }
 #coverTextSubtitle{
   text-align: center;
-  font-size: 12vmin;
-  text-shadow: 0.03em 0.03em #555;
-  color: #EEE;
+  font-size: 10vmin;
+  text-shadow: 0.03em 0.03em $shadowColor;
+  color: $textColor;
 }

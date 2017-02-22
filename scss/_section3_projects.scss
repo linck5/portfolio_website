@@ -1,3 +1,5 @@
+$projectsSectionBgColor: #ecf2df;
+$projectsSectionThumbnailBgColor: #f5fffc;
 
 #projectsSection{
   position:relative;
@@ -5,7 +7,7 @@
   padding-bottom: 40vh;
   padding-left: 2vw;
   padding-right: 2vw;
-  background-color: $projectsSectionColor;
+  background-color: $projectsSectionBgColor;
 
   }@include media(">=desktop") {#projects-section{
     padding-left: 10vw;
@@ -23,20 +25,20 @@
   }
 }
 
-.project-image{
-  height: 200px;
-}
-
 .thumbnail{    
   position: relative;
   height: 600px;
   overflow: auto;
+  background-color: $projectsSectionThumbnailBgColor;
 }
 
 .thumbnail img{    
   width: 100%;
   height: 300px;
   object-fit: cover;
+
+  -webkit-filter: grayscale(40%); /* Safari */
+  filter: grayscale(40%);
 }
 
 .thumbnail-footer .btn{
