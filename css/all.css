@@ -6260,7 +6260,10 @@ and open the template in the editor.
   #contactBoxContent {
     padding-left: 2%;
     padding-right: 2%;
-    font-size: 1.8rem; } }
+    font-size: 4vw; } }
+@media (max-width: 319px) {
+  #contactBoxContent {
+    font-size: 6vw; } }
 #phoneText,
 #emailText {
   padding-left: 20px; }

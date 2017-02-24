@@ -50,7 +50,9 @@
   }@include media("<tablet") {#contactBoxContent{
     padding-left: 2%;
     padding-right: 2%;
-    font-size: 1.8rem;
+    font-size: 4vw;
+  }}@include media("<phone") {#contactBoxContent{
+    font-size: 6vw;
   }
 }
 
