@@ -26,15 +26,15 @@
   right: 50px;
   width: 50%;
   height: 300px;
-  }@include media("<tablet") {#contact-box{
+  }@include media("<tablet") {#contactBox{
     top: 50px;
     left: 2%;
     right: 2%;
     width: auto;
-  }}@include media("<desktop", ">=tablet") {#contact-box{
+  }}@include media("<desktop", ">=tablet") {#contactBox{
     width: auto;
     left: 50px;
-  }}@include media(">=desktop") {#contact-box{
+  }}@include media(">=desktop") {#contactBox{
     width: 700px;
   }
 }
@@ -47,7 +47,7 @@
   text-align: center;
   font-size: 2.5rem;
 
-  }@include media("<tablet") {#contact-box-content{
+  }@include media("<tablet") {#contactBoxContent{
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1.8rem;
@@ -57,7 +57,7 @@
 #phoneText,
 #emailText{
   padding-left: 20px;
-  }@include media("<tablet") {#phone-text,#email-text{
+  }@include media("<tablet") {#phoneText,#emailText{
     padding-left: 2%;
   }
 }
@@ -68,6 +68,6 @@
   padding-left: 3%;
   padding-right: 3%;
 }
-#contact-link-icons {
+#contactLinkIcons {
   padding-top: 20px;
 }

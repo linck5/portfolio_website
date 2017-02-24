@@ -6238,17 +6238,17 @@ and open the template in the editor.
   height: 300px; }
 
 @media (max-width: 767px) {
-  #contact-box {
+  #contactBox {
     top: 50px;
     left: 2%;
     right: 2%;
     width: auto; } }
 @media (max-width: 1023px) and (min-width: 768px) {
-  #contact-box {
+  #contactBox {
     width: auto;
     left: 50px; } }
 @media (min-width: 1024px) {
-  #contact-box {
+  #contactBox {
     width: 700px; } }
 #contactBoxContent {
   padding: 50px;
@@ -6257,7 +6257,7 @@ and open the template in the editor.
   font-size: 2.5rem; }
 
 @media (max-width: 767px) {
-  #contact-box-content {
+  #contactBoxContent {
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1.8rem; } }
@@ -6266,7 +6266,7 @@ and open the template in the editor.
   padding-left: 20px; }
 
 @media (max-width: 767px) {
-  #phone-text, #email-text {
+  #phoneText, #emailText {
     padding-left: 2%; } }
 .contact-link-icon {
   text-decoration: none;
@@ -6274,7 +6274,7 @@ and open the template in the editor.
   padding-left: 3%;
   padding-right: 3%; }
 
-#contact-link-icons {
+#contactLinkIcons {
   padding-top: 20px; }
 
 .btn-custom-1 {
