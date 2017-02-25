@@ -6195,6 +6195,9 @@ and open the template in the editor.
 .thumbnail p {
   font-family: 'Montserrat', sans-serif; }
 
+.thumbnail p a {
+  color: #9ecd5f; }
+
 .thumbnail-footer .btn {
   margin-top: 5px;
   margin-left: 5px;
