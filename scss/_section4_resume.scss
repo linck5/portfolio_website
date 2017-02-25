@@ -10,14 +10,30 @@ $resumeSectionBodyColor: #403b3c;
   padding-bottom: 60vh;
 }
 
-#resumeSection p{
-  font-size: 20px;
-  font-weight: bold;
-  color: $resumeSectionBodyColor;
-  text-align: center;
+#resumeTitle {
+  margin-top: 0;
+  padding-bottom: 40px;
   
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 90px;
+  color: $resumeSectionTitleColor;
+  text-align: center;
+
+  }@include media("<=tablet") {#resumeTitle{
+    font-size: 13vw;
+  }
+}
+
+#resumeSection p{
   padding-left: 25%;
   padding-right: 25%;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: $resumeSectionBodyColor;
+  text-align: center;
 
   }@include media("<=phone") {#resumeSection p{
     padding-left: 30px;
@@ -25,20 +41,7 @@ $resumeSectionBodyColor: #403b3c;
   }
 }
 
-#resumeTitle {
-  margin-top: 0;
-  padding-bottom: 40px;
-  
-  font-weight: bold;
-  text-align: center;
-  font-size: 90px;
-  color: $resumeSectionTitleColor;
-
-  }@include media("<=tablet") {#resumeTitle{
-    font-size: 13vw;
-  }
-}
-
-#resumeButtonP{
-  padding-top: 55px;
+#resumeButton{
+  margin-top: 55px;
+  font-size: 30px;
 }

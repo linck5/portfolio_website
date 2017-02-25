@@ -59,6 +59,9 @@
 #phoneText,
 #emailText{
   padding-left: 20px;
+
+  font-family: 'PT Sans', sans-serif;
+
   }@include media("<tablet") {#phoneText,#emailText{
     padding-left: 2%;
   }

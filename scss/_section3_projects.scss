@@ -16,10 +16,13 @@ $projectsSectionThumbnailBgColor: #f5fffc;
 }
 
 #projectsTitle{
-  font-size: 90px;
   padding-bottom: 120px;
-  text-align: center;
 
+  font-family: 'Sansita', sans-serif;
+  font-size: 100px;
+  color: #393136;
+  text-align: center;
+  
   }@include media("<tablet") { #projectsTitle{
     font-size: 13vw;
   }
@@ -41,9 +44,18 @@ $projectsSectionThumbnailBgColor: #f5fffc;
   filter: grayscale(40%);
 }
 
+.thumbnail h3{  
+  font-family: 'Sansita', sans-serif;
+}
+.thumbnail p{  
+  font-family: 'Montserrat', sans-serif;
+}
+
 .thumbnail-footer .btn{
   margin-top: 5px;
   margin-left: 5px;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 .thumbnail-footer{
@@ -54,3 +66,6 @@ $projectsSectionThumbnailBgColor: #f5fffc;
     right:12px;
   }
 }
+
+
+

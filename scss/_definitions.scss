@@ -1,4 +1,22 @@
-/* contants */
+@font-face {
+ font-family: Through the night;
+ src: url('../fonts/Through_the_night.ttf'); 
+}
+
+@font-face {
+ font-family: Kenyan Coffee RG;
+ src: url('../fonts/kenyan coffee rg.ttf'); 
+}
+
+@font-face {
+ font-family: ELEGANT TYPEWRITER;
+ src: url('../fonts/ELEGANT TYPEWRITER.ttf'); 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300');
+
+/* constants */
 
 $navbar-height: 51px;
 
@@ -7,5 +25,12 @@ $navbar-height: 51px;
 $coverBackgroundImage: url("../images/coverBGImage.jpeg");
 $aboutSectionPattern: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQoU2N0sLb5z4AEfv38ycDGzs6ATjNiU4isEcQGacSqcNREWHgSHY4AftdNJ/NLukQAAAAASUVORK5CYII=);
 $resumeSectionPattern: url( "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALUlEQVQoU2O88GLlfwYk8PPHTwZ2DnYGdJoRm0JkjSA2SCNWhaMmwsKT6HAEAAcEXcvx7hmpAAAAAElFTkSuQmCC");
+
+
+
+
+
+
+//fonts temp
 
 

@@ -1,5 +1,6 @@
 AOS.init({
   duration: 400,
+  offset: 150,
   easing: 'ease-out-sine',
   once: true
 })

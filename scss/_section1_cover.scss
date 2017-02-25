@@ -28,21 +28,25 @@
   top: 30%;
   width: 100%;
   padding-left: 18%;
+  font-family: 'Baloo', cursive;
+
   }@include media("<desktop") {#coverText{
     top: 20%;
     padding-left: 0;
   }
 }
 
-$textColor: #EEE;
-$shadowColor: #555;
-#coverTextTitle{
+$textColor: #edeff9;
+$shadowColor: #393136;
+#coverText h1{
+  font-family: 'Righteous', cursive;
   text-align: center;
   font-size: 18vmin;
   text-shadow: 0.03em 0.03em $shadowColor;
   color: $textColor;
 }
-#coverTextSubtitle{
+#coverText h2{
+   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-size: 10vmin;
   text-shadow: 0.03em 0.03em $shadowColor;

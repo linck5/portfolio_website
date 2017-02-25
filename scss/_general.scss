@@ -6,6 +6,10 @@
   margin-right: -15px;
 }
 
+.navbar{
+	font-family: 'Montserrat', sans-serif;
+}
+
 
 
 $calloutBtnColor: #403b3c;
@@ -65,3 +69,5 @@ $hoverOutTransitionTime: 0.2s;
   background-image: $resumeSectionPattern;
   fill: $projectsSectionBgColor;
 }
+
+

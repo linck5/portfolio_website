@@ -44,6 +44,7 @@ $bodyTextColor: #DDD;
 }
 
 #aboutSection p{
+  font-family: 'Roboto', sans-serif;
   font-size: 2.2rem;
   color: $bodyTextColor;
   
@@ -56,15 +57,15 @@ $bodyTextColor: #DDD;
   }
 }
 
-
 #aboutTitle {
   margin-top: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-  text-align: center;
-  
-  font-size: 50px;
+
+  font-family: 'Playball', cursive;
+  font-size: 80px;
   color: $titleTextColor;
+  text-align: center;
   
   @extend .section-about-side-padding
 }
