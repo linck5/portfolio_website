@@ -47,6 +47,8 @@ $bodyTextColor: #DDD;
   font-family: 'Roboto', sans-serif;
   font-size: 2.2rem;
   color: $bodyTextColor;
+
+  text-indent: 50px;
   
   @extend .section-about-side-padding;
 

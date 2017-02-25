@@ -15,7 +15,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13791,
+				"buffer_size": 13617,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -24,27 +24,9 @@
 			"file": "js/index.js",
 			"settings":
 			{
-				"buffer_size": 1713,
+				"buffer_size": 1728,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_section5_contact.scss",
-			"settings":
-			{
-				"buffer_size": 1188,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_general.scss",
-			"settings":
-			{
-				"buffer_size": 1416,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -95,14 +77,14 @@
 	[
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section4_resume.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_general.scss",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section2_about.scss",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section3_projects.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section1_cover.scss",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_bootstrap_custom_buttons.scss",
-		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_definitions.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/all.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section5_contact.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section3_projects.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_section2_about.scss",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_definitions.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/js/index.js",
+		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/scss/_bootstrap_custom_buttons.scss",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/css/all.css",
 		"/D/Desenvolvimento/www/felipemuller.xyz/portfolio/index.html",
 		"/D/Desenvolvimento/www/felipemuller.xyz/index.html",
@@ -132,7 +114,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -234,7 +216,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -243,15 +225,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13791,
+						"buffer_size": 13617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13782,
-								13782
+								12040,
+								12040
 							]
 						],
 						"settings":
@@ -261,10 +243,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6220.0,
+						"translation.y": 6282.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -273,15 +255,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1713,
+						"buffer_size": 1728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								41,
+								41
 							]
 						],
 						"settings":
@@ -291,68 +273,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/_section5_contact.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scss/_general.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -397,7 +321,7 @@
 	"project": "felipemuller.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":

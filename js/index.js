@@ -1,3 +1,4 @@
+//animate on scroll initialization
 AOS.init({
   duration: 400,
   offset: 150,

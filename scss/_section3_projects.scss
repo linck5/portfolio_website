@@ -16,7 +16,7 @@ $projectsSectionThumbnailBgColor: #f5fffc;
 }
 
 #projectsTitle{
-  padding-bottom: 120px;
+  padding-bottom: 200px;
 
   font-family: 'Sansita', sans-serif;
   font-size: 100px;
@@ -67,5 +67,10 @@ $projectsSectionThumbnailBgColor: #f5fffc;
   }
 }
 
-
+.text-only-thumbnail{
+  padding: 10%;
+}
+.text-only-thumbnail h3{
+  margin-bottom: 20px;
+}
 
